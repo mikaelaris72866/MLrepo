@@ -1,4 +1,4 @@
-<img width="2110" height="3000" alt="CamScanner 24-10-2026 16 35_2" src="https://github.com/user-attachments/assets/45039fcd-09fb-434f-81ad-b4e402995cd2" /># Lab 3: Architectures and their costs
+# Lab 3: Architectures and their costs
 
 Code is in `src/` (`models.py`, `data.py`, `cost.py`, `train.py`, `plots.py`), unit tests in `tests/` (`python -m pytest lab03/tests`), raw outputs in `results/`. Everything ran on CPU on a shared 2-core cloud VM (torch 2.3.1); latency was measured with 1 thread, training used 2.
 
