@@ -1,0 +1,2 @@
+qkv,scores,context,out,ffn,total
+393216,32768,32768,131072,524288,1114112

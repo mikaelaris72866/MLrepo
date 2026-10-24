@@ -1,0 +1,8 @@
+model,group,params,flops_hand,latency_b1_ms,latency_b128_ms,latency_b128_per_sample_us,test_acc,train_seconds
+mlp,spec,235146,469504,0.0642,0.7096,5.54,0.8773,35.2584
+cnn,spec,20490,2063488,0.1455,20.2437,158.15,0.8925,66.8432
+attention,spec,70794,2329856,0.2617,4.6655,36.45,0.843,65.3595
+attention_pos,supplement,71818,2329856,0.256,4.5942,35.89,0.864,64.3874
+mlp_matched,supplement,109386,218368,0.0321,0.2039,1.59,0.8765,34.7719
+cnn_matched,supplement,137226,29929984,0.6243,77.3711,604.46,0.9182,266.3507
+attention_matched,supplement,103818,3378432,0.2955,6.1473,48.03,0.8461,72.6288

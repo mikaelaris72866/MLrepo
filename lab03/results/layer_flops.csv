@@ -1,0 +1,4 @@
+layer,hand_flops,thop_flops,flopcounter_flops,thop_flops_nofastpath,flopcounter_flops_mathsdpa
+Linear 784->256,401408,401408.0,401408,,
+"Conv2d 16->32, 3x3, 14x14 out",1806336,1806336.0,1806336,,
+"Transformer encoder layer (seq 16, d 64, ff 128)",1114112,0.0,1048576,540672.0,1114112.0
