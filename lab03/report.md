@@ -1,4 +1,4 @@
-# Lab 3: Architectures and their costs
+<img width="2110" height="3000" alt="CamScanner 24-10-2026 16 35_2" src="https://github.com/user-attachments/assets/45039fcd-09fb-434f-81ad-b4e402995cd2" /># Lab 3: Architectures and their costs
 
 Code is in `src/` (`models.py`, `data.py`, `cost.py`, `train.py`, `plots.py`), unit tests in `tests/` (`python -m pytest lab03/tests`), raw outputs in `results/`. Everything ran on CPU on a shared 2-core cloud VM (torch 2.3.1); latency was measured with 1 thread, training used 2.
 
@@ -35,6 +35,9 @@ So the specification contradicts the size target. I kept the specified models as
 - Transformer dropout is set to 0 (PyTorch's default is 0.1) so the three families are trained alike. Layers use PyTorch's defaults otherwise (post-norm, ReLU, batch-first).
 
 ## 3. Cost (item 3)
+
+<img width="2146" height="3000" alt="CamScanner 24-10-2026 16 35_1" src="https://github.com/user-attachments/assets/d921cbe6-f1a7-45ae-b667-a221c842ec5b" />
+<img width="2110" height="3000" alt="CamScanner 24-10-2026 16 35_2" src="https://github.com/user-attachments/assets/10391a9b-9c46-4aff-9407-0f3cae088a54" />
 
 ### 3.1 FLOPs by hand
 
