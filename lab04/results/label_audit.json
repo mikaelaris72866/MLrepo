@@ -1,0 +1,26 @@
+{
+  "sample_size": 50,
+  "sample_rows_with_rule_violation": 0,
+  "sample_rows_missing_a_value": 2,
+  "rule_violation_counts_all_rows": {
+    "husband_wife_vs_sex": 4,
+    "degree_under_19": 1
+  },
+  "duplicate_conflicts_14_features": {
+    "groups_with_duplicates": 54,
+    "conflicting_groups": 5,
+    "rows_in_conflicting_groups": 10,
+    "share_of_all_rows_pct": 0.02
+  },
+  "duplicate_conflicts_13_features_without_fnlwgt": {
+    "groups_with_duplicates": 3771,
+    "conflicting_groups": 1029,
+    "rows_in_conflicting_groups": 3873,
+    "share_of_all_rows_pct": 7.93
+  },
+  "train_test_conflicts": {
+    "test_rows_with_feature_twin_in_train": 28,
+    "twin_with_conflicting_label": 1,
+    "twin_with_same_label": 27
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "majority_class_test_accuracy": 0.7607315908005187,
+  "n_test_rows": 14653,
+  "n_test_rows_without_train_twins": 14625
+}

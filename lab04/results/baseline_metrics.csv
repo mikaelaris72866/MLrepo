@@ -1,0 +1,5 @@
+derived_features,test_accuracy,test_f1,cv_accuracy_mean,cv_accuracy_std,cv_f1_mean,cv_f1_std,test_accuracy_without_train_twins,test_f1_without_train_twins,cv_f1_diff_vs_none_mean,cv_f1_diff_vs_none_se,cv_accuracy_diff_vs_none_mean,cv_accuracy_diff_vs_none_se,mcnemar_only_right_without,mcnemar_only_right_with,mcnemar_p
+none,0.85177,0.65698,0.85064,0.00338,0.65496,0.00955,0.85162,0.65708,0.0,0.0,0.0,0.0,0,0,1.0
+capital_net,0.85123,0.65528,0.8509,0.00348,0.65545,0.00967,0.85108,0.65538,0.0005,0.00027,0.00026,0.00013,13,5,0.09625
+hours_per_age,0.85423,0.66405,0.85342,0.00385,0.66242,0.01042,0.85409,0.66415,0.00746,0.00156,0.00278,0.00087,138,174,0.04736
+both,0.85457,0.66499,0.85316,0.00357,0.66171,0.00962,0.85443,0.66509,0.00675,0.00163,0.00252,0.00083,135,176,0.02316

@@ -1,0 +1,92 @@
+created_utc: '2026-10-26T06:32:11+00:00'
+command: python lab04/src/run_pipeline.py
+git_commit: c63d315f95eb28ac296209797d34ae832fbd3574
+environment:
+  python: 3.11.17
+  pandas: 2.2.2
+  numpy: 1.26.4
+  scikit-learn: 1.5.0
+ingestion:
+  source: csv
+  raw_sha256: 21e0ea2f925a00338929a8c86c27354c72ac1c79819bcca81c7d91c3d64218c2
+  rows: 48842
+  cols: 15
+split:
+  train_rows_before_dedupe: 34189
+  train_rows: 34166
+  train_duplicates_dropped: 23
+  test_rows: 14653
+  seed: 42
+validation_hard_violations: 0
+processed:
+  train_rows: 34166
+  test_rows: 14653
+  columns:
+  - age
+  - workclass
+  - fnlwgt
+  - education
+  - education-num
+  - marital-status
+  - occupation
+  - relationship
+  - race
+  - sex
+  - capital-gain
+  - capital-loss
+  - hours-per-week
+  - native-country
+  - capital_net
+  - hours_per_age
+  - income
+  sha256_train: 08932c2275b01d68d8371b4bf1f4fd1d22d0eeeaf60803b50ed391ab0f6cb5fb
+  sha256_test: 4e722dedf354456391db70cdc78d579049d3e41999ade9614b9abcb34adcfb1b
+  sha256_combined: 39e2779b0e0b4af98b48f00430c67778bc04f6e0c97678a970c94f15efd9d48d
+config:
+  seed: 42
+  data:
+    raw_path: data/adult/adult-all.csv
+    raw_url: https://raw.githubusercontent.com/jbrownlee/Datasets/master/adult-all.csv
+    raw_sha256: 21e0ea2f925a00338929a8c86c27354c72ac1c79819bcca81c7d91c3d64218c2
+    expected_rows: 48842
+    expected_cols: 15
+    missing_token: '?'
+    target: income
+    positive_label: '>50K'
+  validation:
+    ranges:
+      age:
+      - 17
+      - 90
+      hours-per-week:
+      - 1
+      - 99
+      capital-gain:
+      - 0
+      - 99999
+      capital-loss:
+      - 0
+      - 4356
+  split:
+    test_size: 0.3
+    stratify: true
+  cleaning:
+    impute_categorical: most_frequent
+    impute_numeric: median
+    clip_percentiles:
+    - 0.01
+    - 0.99
+    drop_duplicates_train_only: true
+  features:
+    derived:
+    - capital_net
+    - hours_per_age
+  model:
+    logistic_regression_max_iter: 1000
+    cv_folds: 5
+  label_audit:
+    sample_size: 50
+  outputs:
+    processed_dir: data/processed
+    results_dir: lab04/results
+  expected_processed_sha256: 39e2779b0e0b4af98b48f00430c67778bc04f6e0c97678a970c94f15efd9d48d

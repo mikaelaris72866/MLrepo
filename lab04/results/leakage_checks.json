@@ -1,0 +1,48 @@
+{
+  "train_test_index_overlap": 0,
+  "test_rows_before_and_after": [
+    14653,
+    14653
+  ],
+  "cleaner_fit_on_rows": 34166,
+  "clip_bounds_equal_train_only_recomputation": true,
+  "columns_whose_clip_upper_bound_would_change_if_test_were_included": [
+    "fnlwgt",
+    "capital-loss"
+  ],
+  "imputation_modes_from_train": {
+    "workclass": "Private",
+    "education": "HS-grad",
+    "marital-status": "Married-civ-spouse",
+    "occupation": "Prof-specialty",
+    "relationship": "Husband",
+    "race": "White",
+    "sex": "Male",
+    "native-country": "United-States"
+  },
+  "imputation_medians_from_train": {
+    "age": 37.0,
+    "fnlwgt": 178471.0,
+    "education-num": 10.0,
+    "capital-gain": 0.0,
+    "capital-loss": 0.0,
+    "hours-per-week": 40.0
+  },
+  "clip_lower_from_train": {
+    "age": 17.0,
+    "fnlwgt": 27050.3,
+    "education-num": 3.0,
+    "capital-gain": 0.0,
+    "capital-loss": 0.0,
+    "hours-per-week": 8.0
+  },
+  "clip_upper_from_train": {
+    "age": 74.0,
+    "fnlwgt": 509161.4999999996,
+    "education-num": 16.0,
+    "capital-gain": 15024.0,
+    "capital-loss": 1980.0,
+    "hours-per-week": 80.0
+  },
+  "test_exact_rows_also_in_train_after_dedupe": 28
+}

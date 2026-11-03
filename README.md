@@ -17,6 +17,17 @@ python -m pytest lab02/tests
 cd lab02/src && python run_lab02.py
 ```
 
+## Lab 4
+
+Leakage-free data pipeline for UCI Adult (validation, cleaning, derived features, label audit, hash, data card). One command:
+
+```
+python lab04/src/run_pipeline.py              # add --source openml to use fetch_openml
+python -m pytest lab04/tests
+```
+
+Settings: `lab04/config.yaml`. Write-up: `lab04/report.md`; data card: `lab04/data_card.md`. Rerunning the pipeline rewrites the data card (`--skip-card` keeps it).
+
 ## Lab 3
 
 Architectures and their costs (MLP, CNN, patch attention on Fashion-MNIST). Needs the dataset in `data/FashionMNIST/raw` (torchvision's `FashionMNIST(root="data", download=True)` fetches it).

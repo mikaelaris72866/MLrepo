@@ -1,0 +1,205 @@
+{
+  "rows": 48842,
+  "columns": 15,
+  "missing_marker_counts": {
+    "workclass": 2799,
+    "occupation": 2809,
+    "native-country": 857
+  },
+  "label_counts": {
+    "<=50K": 37155,
+    ">50K": 11687
+  },
+  "checks": [
+    {
+      "check": "row count",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "48842 rows"
+    },
+    {
+      "check": "column names and order",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "15 columns"
+    },
+    {
+      "check": "types (int columns parse as integers, category columns non-empty)",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "all 15 columns OK"
+    },
+    {
+      "check": "range age in [17, 90]",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "observed [17, 90]"
+    },
+    {
+      "check": "range hours-per-week in [1, 99]",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "observed [1, 99]"
+    },
+    {
+      "check": "range capital-gain in [0, 99999]",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "observed [0, 99999]"
+    },
+    {
+      "check": "range capital-loss in [0, 4356]",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": "observed [0, 4356]"
+    },
+    {
+      "check": "categories of workclass within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of education within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of marital-status within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of occupation within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of relationship within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of race within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of sex within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of native-country within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "categories of income within data dictionary (+'?')",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "null / empty cells other than the '?' marker",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "exact duplicate rows (all 15 columns)",
+      "kind": "info",
+      "status": "note",
+      "n": 52,
+      "detail": "kept in the data; dropped from train only after the split"
+    },
+    {
+      "check": "duplicate feature rows (14 features, any label)",
+      "kind": "info",
+      "status": "note",
+      "n": 57,
+      "detail": ""
+    },
+    {
+      "check": "top-coded value age == 90",
+      "kind": "info",
+      "status": "note",
+      "n": 55,
+      "detail": "maximum of the allowed range; probably a top-code ('or more'), which the data dictionary does not document"
+    },
+    {
+      "check": "top-coded value hours-per-week == 99",
+      "kind": "info",
+      "status": "note",
+      "n": 137,
+      "detail": "maximum of the allowed range; probably a top-code ('or more'), which the data dictionary does not document"
+    },
+    {
+      "check": "top-coded value capital-gain == 99999",
+      "kind": "info",
+      "status": "note",
+      "n": 244,
+      "detail": "maximum of the allowed range; probably a top-code ('or more'), which the data dictionary does not document"
+    },
+    {
+      "check": "education <-> education-num is one-to-one",
+      "kind": "warning",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    },
+    {
+      "check": "relationship Husband/Wife agrees with sex",
+      "kind": "warning",
+      "status": "note",
+      "n": 4,
+      "detail": ""
+    },
+    {
+      "check": "bachelor's degree or higher at age < 19",
+      "kind": "warning",
+      "status": "note",
+      "n": 1,
+      "detail": ""
+    },
+    {
+      "check": "workclass and occupation missing together",
+      "kind": "warning",
+      "status": "note",
+      "n": 10,
+      "detail": "rows where exactly one of the two is '?'"
+    },
+    {
+      "check": "label values are '<=50K' or '>50K'",
+      "kind": "violation",
+      "status": "pass",
+      "n": 0,
+      "detail": ""
+    }
+  ],
+  "n_hard_violations": 0
+}

@@ -1,0 +1,52 @@
+# Lab 4 pipeline configuration.  One command runs everything:
+#   python lab04/src/run_pipeline.py
+seed: 42
+
+data:
+  # Primary source named in the manual: fetch_openml('adult', version=2).
+  #   python lab04/src/run_pipeline.py --source openml
+  # Default source: the same UCI Adult data (48,842 x 15, '?' for missing) as a CSV.
+  # It is downloaded once to raw_path and verified against raw_sha256.
+  raw_path: data/adult/adult-all.csv
+  raw_url: https://raw.githubusercontent.com/jbrownlee/Datasets/master/adult-all.csv
+  raw_sha256: 21e0ea2f925a00338929a8c86c27354c72ac1c79819bcca81c7d91c3d64218c2
+  expected_rows: 48842
+  expected_cols: 15
+  missing_token: "?"
+  target: income
+  positive_label: ">50K"
+
+validation:
+  ranges:
+    age: [17, 90]
+    hours-per-week: [1, 99]
+    capital-gain: [0, 99999]
+    capital-loss: [0, 4356]
+
+split:
+  test_size: 0.30
+  stratify: true          # on income, done BEFORE any cleaning
+
+cleaning:
+  impute_categorical: most_frequent   # fit on train only
+  impute_numeric: median              # fit on train only
+  clip_percentiles: [0.01, 0.99]      # bounds computed on train only
+  drop_duplicates_train_only: true    # exact duplicates, applied before fitting
+
+features:
+  derived: [capital_net, hours_per_age]
+
+model:
+  logistic_regression_max_iter: 1000
+  cv_folds: 5
+
+label_audit:
+  sample_size: 50
+
+outputs:
+  processed_dir: data/processed
+  results_dir: lab04/results
+
+# SHA256 over the processed train and test tables (see run_manifest.yaml).
+# The pipeline compares each run with this value and warns on a mismatch.
+expected_processed_sha256: 39e2779b0e0b4af98b48f00430c67778bc04f6e0c97678a970c94f15efd9d48d
