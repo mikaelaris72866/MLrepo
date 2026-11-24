@@ -48,3 +48,16 @@ python -m pytest lab04/tests
 ```
 
 Settings: `lab04/config.yaml`. Write-up: `lab04/report.md`; data card: `lab04/data_card.md`. Rerunning the pipeline rewrites the data card (`--skip-card` keeps it).
+
+
+## Lab 5 (autograd engine)
+
+```
+python -m pytest lab05/tests
+cd lab05/src
+python verify.py            # item 4: engine vs PyTorch vs numerical gradients
+python moons.py             # item 5: make_moons training, engine vs PyTorch (~5 min)
+python inspect_graph.py     # item 6: graphs, shapes, strides, contiguity
+python compile_bench.py     # item 6: eager vs torch.compile vs jit.trace; contiguity timings (~3 min)
+```
+Report: `lab05/report.md`.
