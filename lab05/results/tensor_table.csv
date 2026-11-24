@@ -1,0 +1,10 @@
+name,shape,dtype,stride,contiguous,requires_grad,is_leaf,grad_fn,bytes
+param 0.weight,"(8, 2)",float32,"(2, 1)",True,True,True,-,64
+param 0.bias,"(8,)",float32,"(1,)",True,True,True,-,32
+param 2.weight,"(1, 8)",float32,"(8, 1)",True,True,True,-,32
+param 2.bias,"(1,)",float32,"(1,)",True,True,True,-,4
+input x,"(4, 2)",float32,"(2, 1)",True,False,True,-,32
+activation after layer 0 (Linear),"(4, 8)",float32,"(8, 1)",True,True,False,AddmmBackward0,128
+activation after layer 1 (ReLU),"(4, 8)",float32,"(8, 1)",True,True,False,ReluBackward0,128
+activation after layer 2 (Linear),"(4, 1)",float32,"(1, 1)",True,True,False,AddmmBackward0,16
+activation after layer 3 (Sigmoid),"(4, 1)",float32,"(1, 1)",True,True,False,SigmoidBackward0,16

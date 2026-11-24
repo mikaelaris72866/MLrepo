@@ -1,0 +1,27 @@
+{
+  "final_loss_engine": 0.24733038650698677,
+  "final_loss_torch64": 0.2473303865069866,
+  "max_abs_loss_diff_over_epochs": 4.440892098500626e-16,
+  "max_abs_param_diff_after_training": 3.3306690738754696e-16,
+  "initial_loss": 0.8883739742461348,
+  "n_train": 200,
+  "n_test": 100,
+  "train_accuracy_engine": 0.89,
+  "test_accuracy_engine": 0.87,
+  "train_accuracy_torch": 0.89,
+  "test_accuracy_torch": 0.87,
+  "majority_baseline_test_accuracy": 0.5,
+  "epochs": 200,
+  "lr": 0.5
+}
+                   implementation  median_s  ms_per_epoch
+own scalar engine (Python floats)   37.0894      185.4468
+            PyTorch eager float64    0.0529        0.2643
+            PyTorch eager float32    0.0533        0.2667
+engine / torch64 slowdown: 702x   (engine / torch32: 695x)
+ n_samples  engine_ms_per_epoch  engine_nogc_ms_per_epoch  torch64_ms_per_epoch  slowdown  slowdown_nogc
+        50                5.395                     3.312                 0.326    16.528         10.148
+       100               13.926                     7.544                 0.346    40.280         21.819
+       200              174.935                    13.257                 0.283   618.254         46.854
+       400              395.290                    28.259                 0.395  1000.458         71.522
+       800              920.123                    65.247                 0.620  1484.093        105.239

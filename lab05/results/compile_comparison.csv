@@ -1,0 +1,10 @@
+case,variant,median_us,q1_us,q3_us,first_call_s,max_abs_err_vs_eager,speedup_vs_eager
+"tiny MLP 2-8-1, batch 256",eager,25.422,25.1291,26.106,0.0,0.0,1.0
+"tiny MLP 2-8-1, batch 256",jit.trace,18.8345,18.5138,19.2074,0.0009,0.0,1.3498
+"tiny MLP 2-8-1, batch 256",torch.compile,37.2161,36.6978,38.698,9.3965,0.0,0.6831
+"MLP 256-512-512-10, batch 128",eager,903.319,898.6494,926.2444,0.0,0.0,1.0
+"MLP 256-512-512-10, batch 128",jit.trace,889.2958,866.541,971.6816,0.0021,0.0,1.0158
+"MLP 256-512-512-10, batch 128",torch.compile,1480.2624,1388.0849,1513.0439,2.5751,0.0,0.6102
+"elementwise chain, 1M floats",eager,5027.8626,4908.251,5285.1056,0.0,0.0,1.0
+"elementwise chain, 1M floats",jit.trace,4887.621,4845.142,5012.6746,0.0083,0.0,1.0287
+"elementwise chain, 1M floats",torch.compile,3191.0192,3140.0158,3221.1198,1.9865,0.0,1.5756

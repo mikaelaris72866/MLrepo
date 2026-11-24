@@ -1,0 +1,4 @@
+implementation,median_s,ms_per_epoch,runs_s
+own scalar engine (Python floats),37.08937,185.44683,37.089;35.116;40.839;40.212;36.701
+PyTorch eager float64,0.05285,0.26427,0.0535;0.0529;0.0515;0.0524;0.0532
+PyTorch eager float32,0.05334,0.26672,0.0541;0.0542;0.0523;0.0533;0.0527

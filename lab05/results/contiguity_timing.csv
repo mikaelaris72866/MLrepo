@@ -1,0 +1,17 @@
+size,operation,median_ms,relative_to_first
+256x256,a + b            (both contiguous),0.0117,1.0
+256x256,a.t() + b        (one transposed view),0.0913,7.7883
+256x256,"a.t() + b.t()    (both transposed: same layout, still strided)",0.0821,7.0055
+256x256,"a.t().contiguous() + b   (copy first, then add)",0.0586,5.0034
+256x256,"a[:, ::2].sum()  (strided slice, half the data)",0.0221,1.8852
+256x256,"a[:, :n//2].contiguous().sum()",0.0187,1.5979
+256x256,"a.sum()          (contiguous, all data)",0.0065,0.5579
+256x256,a @ b            (contiguous),0.2601,22.1893
+256x256,a.t() @ b        (transposed operand),0.2412,20.5744
+4096x4096,a + b            (both contiguous),14.9974,1.0
+4096x4096,a.t() + b        (one transposed view),132.2626,8.8191
+4096x4096,"a.t() + b.t()    (both transposed: same layout, still strided)",236.3277,15.7579
+4096x4096,"a.t().contiguous() + b   (copy first, then add)",69.9081,4.6614
+4096x4096,"a[:, ::2].sum()  (strided slice, half the data)",5.3879,0.3593
+4096x4096,"a[:, :n//2].contiguous().sum()",4.0983,0.2733
+4096x4096,"a.sum()          (contiguous, all data)",2.5622,0.1708

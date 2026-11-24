@@ -1,0 +1,11 @@
+tensor,shape,stride,contiguous,shares_storage_with_base
+"base = arange(12).reshape(3, 4)","(3, 4)","(4, 1)",True,True
+base.t()            (transpose),"(4, 3)","(1, 4)",False,True
+"base[:, ::2]        (strided slice)","(3, 2)","(4, 2)",False,True
+"base[:, :2]         (column block)","(3, 2)","(4, 1)",False,True
+base[1:]            (row block),"(2, 4)","(4, 1)",True,True
+"base.permute(1, 0)","(4, 3)","(1, 4)",False,True
+"base[:1].expand(3, 4)  (stride 0)","(3, 4)","(0, 1)",False,True
+base.t().contiguous()  (copy),"(4, 3)","(3, 1)",True,False
+base.t().reshape(12)   (must copy),"(12,)","(1,)",True,False
+base.reshape(12)       (a view),"(12,)","(1,)",True,True

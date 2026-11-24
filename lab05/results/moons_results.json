@@ -1,0 +1,34 @@
+{
+  "final_loss_engine": 0.24733038650698677,
+  "final_loss_torch64": 0.2473303865069866,
+  "max_abs_loss_diff_over_epochs": 4.440892098500626e-16,
+  "max_abs_param_diff_after_training": 3.3306690738754696e-16,
+  "initial_loss": 0.8883739742461348,
+  "n_train": 200,
+  "n_test": 100,
+  "train_accuracy_engine": 0.89,
+  "test_accuracy_engine": 0.87,
+  "train_accuracy_torch": 0.89,
+  "test_accuracy_torch": 0.87,
+  "majority_baseline_test_accuracy": 0.5,
+  "epochs": 200,
+  "lr": 0.5,
+  "graph_nodes_per_epoch": 13034,
+  "graph_nodes_per_sample": 65.2,
+  "timing": {
+    "own scalar engine (Python floats)": {
+      "median_s": 37.08936693600026,
+      "runs_s": "37.089;35.116;40.839;40.212;36.701"
+    },
+    "PyTorch eager float64": {
+      "median_s": 0.05285368399972867,
+      "runs_s": "0.0535;0.0529;0.0515;0.0524;0.0532"
+    },
+    "PyTorch eager float32": {
+      "median_s": 0.05334390100006203,
+      "runs_s": "0.0541;0.0542;0.0523;0.0533;0.0527"
+    }
+  },
+  "slowdown_engine_vs_torch64": 701.7366459486658,
+  "slowdown_engine_vs_torch32": 695.2878631046711
+}

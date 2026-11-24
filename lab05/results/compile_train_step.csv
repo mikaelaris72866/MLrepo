@@ -1,0 +1,3 @@
+variant,median_us_per_train_step,first_step_s
+eager,413.538,0.01
+torch.compile(model),751.457,5.621

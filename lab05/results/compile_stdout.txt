@@ -1,0 +1,31 @@
+torch 2.3.1+cu121 | threads 1
+                         case       variant  median_us     q1_us     q3_us  first_call_s  max_abs_err_vs_eager  speedup_vs_eager
+    tiny MLP 2-8-1, batch 256         eager    25.4220   25.1291   26.1060        0.0000                   0.0            1.0000
+    tiny MLP 2-8-1, batch 256     jit.trace    18.8345   18.5138   19.2074        0.0009                   0.0            1.3498
+    tiny MLP 2-8-1, batch 256 torch.compile    37.2161   36.6978   38.6980        9.3965                   0.0            0.6831
+MLP 256-512-512-10, batch 128         eager   903.3190  898.6494  926.2444        0.0000                   0.0            1.0000
+MLP 256-512-512-10, batch 128     jit.trace   889.2958  866.5410  971.6816        0.0021                   0.0            1.0158
+MLP 256-512-512-10, batch 128 torch.compile  1480.2624 1388.0849 1513.0439        2.5751                   0.0            0.6102
+ elementwise chain, 1M floats         eager  5027.8626 4908.2510 5285.1056        0.0000                   0.0            1.0000
+ elementwise chain, 1M floats     jit.trace  4887.6210 4845.1420 5012.6746        0.0083                   0.0            1.0287
+ elementwise chain, 1M floats torch.compile  3191.0192 3140.0158 3221.1198        1.9865                   0.0            1.5756
+             variant  median_us_per_train_step  first_step_s
+               eager                   413.538         0.010
+torch.compile(model)                   751.457         5.621
+     size                                                      operation  median_ms  relative_to_first
+  256x256                             a + b            (both contiguous)     0.0117             1.0000
+  256x256                         a.t() + b        (one transposed view)     0.0913             7.7883
+  256x256 a.t() + b.t()    (both transposed: same layout, still strided)     0.0821             7.0055
+  256x256                a.t().contiguous() + b   (copy first, then add)     0.0586             5.0034
+  256x256                a[:, ::2].sum()  (strided slice, half the data)     0.0221             1.8852
+  256x256                                 a[:, :n//2].contiguous().sum()     0.0187             1.5979
+  256x256                        a.sum()          (contiguous, all data)     0.0065             0.5579
+  256x256                                  a @ b            (contiguous)     0.2601            22.1893
+  256x256                          a.t() @ b        (transposed operand)     0.2412            20.5744
+4096x4096                             a + b            (both contiguous)    14.9974             1.0000
+4096x4096                         a.t() + b        (one transposed view)   132.2626             8.8191
+4096x4096 a.t() + b.t()    (both transposed: same layout, still strided)   236.3277            15.7579
+4096x4096                a.t().contiguous() + b   (copy first, then add)    69.9081             4.6614
+4096x4096                a[:, ::2].sum()  (strided slice, half the data)     5.3879             0.3593
+4096x4096                                 a[:, :n//2].contiguous().sum()     4.0983             0.2733
+4096x4096                        a.sum()          (contiguous, all data)     2.5622             0.1708
