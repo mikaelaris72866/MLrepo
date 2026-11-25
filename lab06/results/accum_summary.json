@@ -1,0 +1,11 @@
+{
+ "bs256_test": 0.9128,
+ "bs64x4_test": 0.9119,
+ "bs64_test": 0.9171,
+ "bs256_throughput": 1267.7599962534675,
+ "bs64x4_throughput": 1344.8026110133856,
+ "bs256_peak_rss_mb": 1139.42578125,
+ "bs64x4_peak_rss_mb": 971.65234375,
+ "max_abs_train_loss_diff": 8.564573634756156e-05,
+ "max_abs_val_acc_diff": 0.0014000000000000679
+}

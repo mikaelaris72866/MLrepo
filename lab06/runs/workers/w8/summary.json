@@ -1,0 +1,45 @@
+{
+ "run_name": "workers-w8",
+ "config_hash": "d49b5ed545",
+ "mlflow_run_id": "2749b7bcb7d441a3b927018c911aa77a",
+ "final_val_acc": 0.8966,
+ "final_val_loss": 0.28895917205810545,
+ "final_train_loss": 0.2748411331696944,
+ "test_acc": 0.8935,
+ "test_loss": 0.2929461242675781,
+ "median_throughput_samples_s": 1327.6663184671493,
+ "peak_rss_mb": 949.2421875,
+ "activation_mb_per_batch_est": 85.7548828125,
+ "params": 137226,
+ "epochs": 2,
+ "history": [
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "train_loss": 0.4227500864549117,
+   "train_acc": 0.8488909090909091,
+   "val_loss": 0.3248744857788086,
+   "val_acc": 0.8866,
+   "epoch_seconds": 40.89987127900008,
+   "throughput_samples_s": 1344.7475084900716,
+   "t_data_loading": 0.9901163339982304,
+   "t_forward": 21.314259688999527,
+   "t_backward": 17.790675924998368,
+   "t_optimizer": 0.4388336189988422
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "train_loss": 0.2748411331696944,
+   "train_acc": 0.9001090909090909,
+   "val_loss": 0.28895917205810545,
+   "val_acc": 0.8966,
+   "epoch_seconds": 41.965988172999914,
+   "throughput_samples_s": 1310.585128444227,
+   "t_data_loading": 1.1092584350010384,
+   "t_forward": 21.641073484999197,
+   "t_backward": 18.36200190699833,
+   "t_optimizer": 0.45162733200027105
+  }
+ ]
+}

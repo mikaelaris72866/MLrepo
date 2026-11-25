@@ -1,0 +1,51 @@
+# Lab 6 base configuration: the single config object that drives a training run.
+# Defaults reproduce the Lab 3 best model (cnn_matched, Adam 1e-3, batch 128, 5 epochs, seed 42).
+# Relative paths are resolved against the repository root.
+seed: 42
+
+data:
+  root: data                # contains FashionMNIST/raw/*-ubyte(.gz)
+  val_size: 5000            # 55k train / 5k validation, fixed split (seeded)
+  batch_size: 128
+  num_workers: 0
+  augment: false            # random shift + horizontal flip, per sample
+  subset_train: null        # use only the first N training samples (tests / smoke runs)
+  subset_test: null
+  mean: 0.2860
+  std: 0.3530
+
+model:
+  name: cnn
+  c1: 64
+  c2: 128
+
+train:
+  epochs: 5
+  accum_steps: 1            # gradient accumulation: optimizer step every N micro-batches
+  threads: 2                # torch intra-op threads
+  grad_clip: null
+
+optimizer:
+  name: adam                # adam | sgd
+  lr: 0.001
+  momentum: 0.9             # sgd only
+  weight_decay: 0.0
+
+scheduler:
+  name: none                # none | step | cosine | plateau
+  step_size: 3              # step
+  gamma: 0.5                # step
+  T_max: null               # cosine (default: number of epochs)
+  factor: 0.5               # plateau
+  patience: 1               # plateau (monitors validation loss)
+
+run:
+  name: base
+  out_dir: lab06/runs/base  # checkpoints, summary.json, history.csv, config.yaml
+  resume: null              # path to a checkpoint (last.pt) to continue from
+  interrupt_after_epoch: null   # simulate a crash right after saving this epoch's checkpoint
+  mlflow:
+    enabled: true
+    tracking_uri: lab06/mlruns
+    experiment: lab06
+    tags: {}

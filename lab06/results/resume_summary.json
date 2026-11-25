@@ -1,0 +1,8 @@
+{
+ "max_abs_train_loss_diff": 0.0,
+ "max_abs_val_loss_diff": 0.0,
+ "max_abs_val_acc_diff": 0.0,
+ "test_uninterrupted": 0.9127,
+ "test_resumed": 0.9127,
+ "interrupted_epochs": 3
+}

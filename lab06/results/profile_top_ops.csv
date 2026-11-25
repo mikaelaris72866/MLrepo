@@ -1,0 +1,13 @@
+op,calls,self_cpu_s,self_cpu_pct
+aten::convolution_backward,420,7.1058,32.8425
+aten::max_pool2d_with_indices,420,5.3698,24.8187
+aten::mkldnn_convolution,420,3.9238,18.1356
+aten::threshold_backward,420,0.9901,4.576
+aten::max_pool2d_with_indices_backward,420,0.7824,3.6161
+aten::fill_,1050,0.6159,2.8468
+aten::clamp_min,420,0.5969,2.7588
+aten::_to_copy,113190,0.2074,0.9586
+aten::mm,420,0.1171,0.5411
+aten::addmm,210,0.1133,0.5236
+aten::to,113400,0.1106,0.5113
+aten::div,28560,0.1039,0.4802

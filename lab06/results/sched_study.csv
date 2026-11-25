@@ -1,0 +1,6 @@
+run,final_lr,train_loss_ep10,val_loss_ep10,val_acc_ep10,best_val_acc,test_acc_ep10
+"SGD+mom, constant",0.05,0.1304,0.2699,0.9152,0.9166,0.9084
+"SGD+mom, StepLR",0.0062,0.0968,0.2146,0.9238,0.9268,0.9226
+"SGD+mom, CosineAnnealingLR",0.0012,0.0886,0.212,0.9246,0.9252,0.9229
+"SGD+mom, ReduceLROnPlateau",0.025,0.0911,0.2412,0.9224,0.9224,0.9192
+"Adam, constant",0.001,0.0997,0.2282,0.9218,0.9266,0.9205

@@ -1,0 +1,5 @@
+phase,wall_seconds,wall_share_pct,profiler_seconds,profiler_share_pct
+data_loading,2.014,4.698,1.251,5.783
+forward,20.654,48.176,10.216,47.217
+backward,19.714,45.985,9.9,45.755
+optimizer,0.489,1.141,0.27,1.246

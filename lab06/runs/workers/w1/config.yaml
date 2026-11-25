@@ -1,0 +1,43 @@
+seed: 42
+data:
+  root: data
+  val_size: 5000
+  batch_size: 128
+  num_workers: 1
+  augment: false
+  subset_train: null
+  subset_test: null
+  mean: 0.286
+  std: 0.353
+model:
+  name: cnn
+  c1: 64
+  c2: 128
+train:
+  epochs: 2
+  accum_steps: 1
+  threads: 2
+  grad_clip: null
+optimizer:
+  name: adam
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0
+scheduler:
+  name: none
+  step_size: 3
+  gamma: 0.5
+  T_max: null
+  factor: 0.5
+  patience: 1
+run:
+  name: workers-w1
+  out_dir: lab06/runs/workers/w1
+  resume: null
+  interrupt_after_epoch: null
+  mlflow:
+    enabled: true
+    tracking_uri: lab06/mlruns
+    experiment: lab06
+    tags:
+      study: workers

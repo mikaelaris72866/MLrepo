@@ -1,0 +1,60 @@
+[run ] sched sgd_constant
+[run ] sched sgd_plateau
+epoch  1 lr 0.05000 train 0.4160/0.8524 val 0.3199/0.8840  79.2s  694 samples/s
+epoch  1 lr 0.05000 train 0.4160/0.8524 val 0.3199/0.8840  79.4s  692 samples/s
+epoch  2 lr 0.05000 train 0.2690/0.9037 val 0.2828/0.8998  80.5s  683 samples/s
+epoch  2 lr 0.05000 train 0.2690/0.9037 val 0.2828/0.8998  80.5s  683 samples/s
+epoch  3 lr 0.05000 train 0.2327/0.9173 val 0.2776/0.9010  75.7s  726 samples/s
+epoch  3 lr 0.05000 train 0.2327/0.9173 val 0.2776/0.9010  77.8s  707 samples/s
+epoch  4 lr 0.05000 train 0.2095/0.9252 val 0.2470/0.9116  78.7s  699 samples/s
+epoch  4 lr 0.05000 train 0.2095/0.9252 val 0.2470/0.9116  79.5s  692 samples/s
+epoch  5 lr 0.05000 train 0.1948/0.9289 val 0.2443/0.9166  78.7s  699 samples/s
+epoch  5 lr 0.05000 train 0.1948/0.9289 val 0.2443/0.9166  78.4s  701 samples/s
+epoch  6 lr 0.05000 train 0.1798/0.9353 val 0.2372/0.9166  76.9s  715 samples/s
+epoch  6 lr 0.05000 train 0.1798/0.9353 val 0.2372/0.9166  76.7s  717 samples/s
+epoch  7 lr 0.05000 train 0.1654/0.9413 val 0.2430/0.9130  77.8s  707 samples/s
+epoch  7 lr 0.05000 train 0.1654/0.9413 val 0.2430/0.9130  78.8s  698 samples/s
+epoch  8 lr 0.05000 train 0.1559/0.9426 val 0.2391/0.9164  77.7s  707 samples/s
+epoch  8 lr 0.05000 train 0.1559/0.9426 val 0.2391/0.9164  77.7s  708 samples/s
+epoch  9 lr 0.02500 train 0.1071/0.9628 val 0.2335/0.9194  78.6s  700 samples/s
+epoch  9 lr 0.05000 train 0.1409/0.9486 val 0.2587/0.9126  78.9s  697 samples/s
+epoch 10 lr 0.02500 train 0.0911/0.9691 val 0.2412/0.9224  78.1s  705 samples/s
+epoch 10 lr 0.05000 train 0.1304/0.9528 val 0.2699/0.9152  78.7s  698 samples/s
+test accuracy 0.9192  (peak RSS 1046 MB)
+[run ] sched adam_constant
+test accuracy 0.9084  (peak RSS 941 MB)
+[run ] sched sgd_step
+epoch  1 lr 0.05000 train 0.4160/0.8524 val 0.3199/0.8840  79.3s  694 samples/s
+epoch  1 lr 0.00100 train 0.4227/0.8491 val 0.3234/0.8872  81.1s  678 samples/s
+epoch  2 lr 0.05000 train 0.2690/0.9037 val 0.2828/0.8998  77.8s  707 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.8999 val 0.2867/0.8986  79.3s  694 samples/s
+epoch  3 lr 0.05000 train 0.2327/0.9173 val 0.2776/0.9010  77.4s  710 samples/s
+epoch  3 lr 0.00100 train 0.2302/0.9175 val 0.2626/0.9044  80.0s  687 samples/s
+epoch  4 lr 0.02500 train 0.1840/0.9343 val 0.2275/0.9208  76.5s  719 samples/s
+epoch  4 lr 0.00100 train 0.2014/0.9275 val 0.2484/0.9104  78.7s  699 samples/s
+epoch  5 lr 0.02500 train 0.1681/0.9391 val 0.2298/0.9182  78.2s  703 samples/s
+epoch  5 lr 0.00100 train 0.1808/0.9352 val 0.2427/0.9150  79.7s  690 samples/s
+epoch  6 lr 0.02500 train 0.1552/0.9447 val 0.2213/0.9268  79.1s  695 samples/s
+epoch  6 lr 0.00100 train 0.1613/0.9422 val 0.2242/0.9228  80.9s  679 samples/s
+epoch  7 lr 0.01250 train 0.1288/0.9551 val 0.2198/0.9234  76.7s  717 samples/s
+epoch  7 lr 0.00100 train 0.1416/0.9493 val 0.2263/0.9224  80.1s  686 samples/s
+epoch  8 lr 0.01250 train 0.1197/0.9585 val 0.2167/0.9240  78.1s  704 samples/s
+epoch  8 lr 0.00100 train 0.1303/0.9522 val 0.2195/0.9230  80.9s  680 samples/s
+epoch  9 lr 0.01250 train 0.1123/0.9607 val 0.2174/0.9244  82.3s  669 samples/s
+epoch  9 lr 0.00100 train 0.1141/0.9602 val 0.2283/0.9266  79.2s  695 samples/s
+epoch 10 lr 0.00625 train 0.0968/0.9681 val 0.2146/0.9238  77.3s  712 samples/s
+test accuracy 0.9226  (peak RSS 948 MB)
+[run ] sched sgd_cosine
+epoch 10 lr 0.00100 train 0.0997/0.9649 val 0.2282/0.9218  76.0s  724 samples/s
+test accuracy 0.9205  (peak RSS 972 MB)
+epoch  1 lr 0.05000 train 0.4160/0.8524 val 0.3199/0.8840  75.1s  732 samples/s
+epoch  2 lr 0.04878 train 0.2669/0.9049 val 0.2790/0.8958  74.6s  737 samples/s
+epoch  3 lr 0.04523 train 0.2288/0.9174 val 0.2667/0.9044  73.1s  753 samples/s
+epoch  4 lr 0.03969 train 0.1992/0.9288 val 0.2445/0.9134  73.6s  747 samples/s
+epoch  5 lr 0.03273 train 0.1748/0.9372 val 0.2387/0.9156  75.4s  730 samples/s
+epoch  6 lr 0.02500 train 0.1507/0.9471 val 0.2176/0.9252  74.3s  740 samples/s
+epoch  7 lr 0.01727 train 0.1291/0.9556 val 0.2213/0.9252  72.3s  760 samples/s
+epoch  8 lr 0.01031 train 0.1104/0.9623 val 0.2146/0.9242  76.8s  717 samples/s
+epoch  9 lr 0.00477 train 0.0962/0.9683 val 0.2131/0.9242  77.4s  710 samples/s
+epoch 10 lr 0.00122 train 0.0886/0.9718 val 0.2120/0.9246  77.1s  713 samples/s
+test accuracy 0.9229  (peak RSS 996 MB)

@@ -1,0 +1,21 @@
+[run ] item1 base
+2026/11/20 09:13:40 INFO mlflow.tracking.fluent: Experiment with name 'lab06' does not exist. Creating a new experiment.
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  43.5s  1264 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  42.4s  1298 samples/s
+epoch  3 lr 0.00100 train 0.2308/0.9173 val 0.2635/0.9030  40.9s  1346 samples/s
+epoch  4 lr 0.00100 train 0.2011/0.9277 val 0.2458/0.9114  43.0s  1278 samples/s
+epoch  5 lr 0.00100 train 0.1801/0.9357 val 0.2443/0.9176  41.7s  1317 samples/s
+test accuracy 0.9127  (peak RSS 944 MB)
+[run ] profile_epoch.py
+STAGE:2026-11-20 09:17:35 329:329 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+Traceback (most recent call last):
+  File "/home/claude/repo/lab06/src/studies.py", line 74, in <module>
+    {"timing": timing, "sched": sched}[sys.argv[1]]()
+  File "/home/claude/repo/lab06/src/studies.py", line 38, in timing
+    script("profile_epoch.py")                                           # item 2
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/repo/lab06/src/studies.py", line 33, in script
+    subprocess.run([sys.executable, str(SRC / name), *args], cwd=REPO, check=True)
+  File "/usr/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/claude/repo/.venv/bin/python', '/home/claude/repo/lab06/src/profile_epoch.py']' died with <Signals.SIGKILL: 9>.

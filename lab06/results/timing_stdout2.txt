@@ -1,0 +1,171 @@
+[skip] item1/base
+[run ] profile_epoch.py
+STAGE:2026-11-20 09:21:30 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:21:31 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:21:31 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:21:35 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:21:36 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:21:36 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:21:40 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:21:41 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:21:41 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:21:45 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:21:46 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:21:46 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:21:50 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:21:51 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:21:51 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:21:55 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:21:56 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:21:56 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:00 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:01 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:01 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:05 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:06 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:06 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:10 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:11 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:11 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:14 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:15 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:15 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:19 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:20 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:20 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:24 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:25 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:25 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:29 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:30 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:30 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:34 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:35 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:35 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:39 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:40 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:40 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:44 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:45 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:45 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:48 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:49 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:49 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:53 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:54 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:54 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:22:58 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:22:59 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:22:59 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:23:02 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:23:03 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:23:03 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:23:07 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:23:08 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:23:08 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+STAGE:2026-11-20 09:23:12 382:382 ActivityProfilerController.cpp:314] Completed Stage: Warm Up
+STAGE:2026-11-20 09:23:12 382:382 ActivityProfilerController.cpp:320] Completed Stage: Collection
+STAGE:2026-11-20 09:23:12 382:382 ActivityProfilerController.cpp:324] Completed Stage: Post Processing
+epoch wall time under the profiler: 103.1s  (533 samples/s)   steps: 430  (profiler windows cover about half)
+       phase  wall_seconds  wall_share_pct  profiler_seconds  profiler_share_pct
+data_loading          2.01            4.70              1.25                5.78
+     forward         20.65           48.18             10.22               47.22
+    backward         19.71           45.99              9.90               45.75
+   optimizer          0.49            1.14              0.27                1.25
+                                    op  calls  self_cpu_s  self_cpu_pct
+            aten::convolution_backward    420      7.1058       32.8425
+         aten::max_pool2d_with_indices    420      5.3698       24.8187
+              aten::mkldnn_convolution    420      3.9238       18.1356
+              aten::threshold_backward    420      0.9901        4.5760
+aten::max_pool2d_with_indices_backward    420      0.7824        3.6161
+                           aten::fill_   1050      0.6159        2.8468
+                       aten::clamp_min    420      0.5969        2.7588
+                        aten::_to_copy 113190      0.2074        0.9586
+                              aten::mm    420      0.1171        0.5411
+                           aten::addmm    210      0.1133        0.5236
+                              aten::to 113400      0.1106        0.5113
+                             aten::div  28560      0.1039        0.4802
+[run ] bench_loader.py
+{'augment': False, 'num_workers': 0, 'median_epoch_s': 1.29943149799999, 'samples_per_s': 42326.201946507244, 'runs_s': '1.28;1.37;1.30'}
+{'augment': False, 'num_workers': 1, 'median_epoch_s': 2.974696635999976, 'samples_per_s': 18489.280330096975, 'runs_s': '2.97;3.05;2.91'}
+{'augment': False, 'num_workers': 2, 'median_epoch_s': 2.0236517509999885, 'samples_per_s': 27178.58938565972, 'runs_s': '2.02;2.05;1.99'}
+{'augment': False, 'num_workers': 4, 'median_epoch_s': 2.6349037279999266, 'samples_per_s': 20873.627911160453, 'runs_s': '2.99;2.52;2.63'}
+{'augment': False, 'num_workers': 8, 'median_epoch_s': 4.3445136139998795, 'samples_per_s': 12659.644988282807, 'runs_s': '4.25;4.44;4.34'}
+{'augment': True, 'num_workers': 0, 'median_epoch_s': 2.882471325999859, 'samples_per_s': 19080.848958982046, 'runs_s': '2.84;3.11;2.88'}
+{'augment': True, 'num_workers': 1, 'median_epoch_s': 4.762855501999866, 'samples_per_s': 11547.694440216832, 'runs_s': '4.77;4.76;4.38'}
+{'augment': True, 'num_workers': 2, 'median_epoch_s': 2.7584760929998993, 'samples_per_s': 19938.545104513258, 'runs_s': '2.91;2.73;2.76'}
+{'augment': True, 'num_workers': 4, 'median_epoch_s': 3.526891285999909, 'samples_per_s': 15594.46989997225, 'runs_s': '3.58;3.53;3.51'}
+{'augment': True, 'num_workers': 8, 'median_epoch_s': 5.134838618000003, 'samples_per_s': 10711.1448073946, 'runs_s': '5.32;5.13;5.09'}
+{'median_step_ms': 97.2147756000004, 'samples_per_s': 1316.672277542134, 'batch_size': 128, 'epoch_s_at_55k': 41.77197389062517}
+[run ] workers w0
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  42.6s  1292 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  40.6s  1355 samples/s
+test accuracy 0.8935  (peak RSS 923 MB)
+[run ] workers w1
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  41.8s  1315 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  41.3s  1330 samples/s
+test accuracy 0.8935  (peak RSS 924 MB)
+[run ] workers w2
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  41.6s  1323 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  41.2s  1336 samples/s
+test accuracy 0.8935  (peak RSS 1071 MB)
+[run ] workers w4
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  40.5s  1358 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  40.2s  1367 samples/s
+test accuracy 0.8935  (peak RSS 918 MB)
+[run ] workers w8
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  40.9s  1345 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  42.0s  1311 samples/s
+test accuracy 0.8935  (peak RSS 949 MB)
+[run ] batch bs32
+epoch  1 lr 0.00100 train 0.3736/0.8658 val 0.2821/0.8978  39.8s  1383 samples/s
+epoch  2 lr 0.00100 train 0.2496/0.9106 val 0.2691/0.9020  39.3s  1399 samples/s
+epoch  3 lr 0.00100 train 0.2097/0.9229 val 0.2476/0.9140  38.7s  1423 samples/s
+epoch  4 lr 0.00100 train 0.1805/0.9346 val 0.2264/0.9188  39.1s  1406 samples/s
+epoch  5 lr 0.00100 train 0.1605/0.9421 val 0.2343/0.9196  42.0s  1310 samples/s
+test accuracy 0.9150  (peak RSS 968 MB)
+[run ] batch bs64
+epoch  1 lr 0.00100 train 0.3929/0.8587 val 0.3017/0.8904  40.1s  1371 samples/s
+epoch  2 lr 0.00100 train 0.2603/0.9053 val 0.2779/0.8966  40.6s  1356 samples/s
+epoch  3 lr 0.00100 train 0.2164/0.9222 val 0.2376/0.9146  41.2s  1334 samples/s
+epoch  4 lr 0.00100 train 0.1877/0.9315 val 0.2282/0.9172  40.2s  1370 samples/s
+epoch  5 lr 0.00100 train 0.1652/0.9409 val 0.2319/0.9196  41.4s  1328 samples/s
+test accuracy 0.9171  (peak RSS 992 MB)
+[run ] batch bs128
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  42.4s  1298 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  42.4s  1297 samples/s
+epoch  3 lr 0.00100 train 0.2308/0.9173 val 0.2635/0.9030  41.1s  1339 samples/s
+epoch  4 lr 0.00100 train 0.2011/0.9277 val 0.2458/0.9114  42.9s  1282 samples/s
+epoch  5 lr 0.00100 train 0.1801/0.9357 val 0.2443/0.9176  41.7s  1319 samples/s
+test accuracy 0.9127  (peak RSS 1016 MB)
+[run ] batch bs256
+epoch  1 lr 0.00100 train 0.4722/0.8318 val 0.3805/0.8632  44.4s  1238 samples/s
+epoch  2 lr 0.00100 train 0.3034/0.8911 val 0.3253/0.8864  43.6s  1262 samples/s
+epoch  3 lr 0.00100 train 0.2590/0.9067 val 0.2843/0.8970  43.4s  1268 samples/s
+epoch  4 lr 0.00100 train 0.2296/0.9182 val 0.2463/0.9134  42.7s  1289 samples/s
+epoch  5 lr 0.00100 train 0.2075/0.9255 val 0.2400/0.9156  41.6s  1321 samples/s
+test accuracy 0.9128  (peak RSS 1139 MB)
+[run ] batch bs512
+epoch  1 lr 0.00100 train 0.5565/0.8070 val 0.3966/0.8592  47.8s  1149 samples/s
+epoch  2 lr 0.00100 train 0.3381/0.8797 val 0.3589/0.8718  49.4s  1114 samples/s
+epoch  3 lr 0.00100 train 0.2919/0.8955 val 0.3046/0.8912  48.0s  1145 samples/s
+epoch  4 lr 0.00100 train 0.2606/0.9068 val 0.2887/0.8944  48.8s  1128 samples/s
+epoch  5 lr 0.00100 train 0.2391/0.9149 val 0.2636/0.9048  50.3s  1094 samples/s
+test accuracy 0.8998  (peak RSS 1293 MB)
+[run ] accum bs64x4
+epoch  1 lr 0.00100 train 0.4723/0.8317 val 0.3795/0.8640  39.8s  1382 samples/s
+epoch  2 lr 0.00100 train 0.3034/0.8910 val 0.3251/0.8878  40.9s  1345 samples/s
+epoch  3 lr 0.00100 train 0.2591/0.9077 val 0.2900/0.8966  39.4s  1396 samples/s
+epoch  4 lr 0.00100 train 0.2297/0.9186 val 0.2460/0.9122  41.5s  1325 samples/s
+epoch  5 lr 0.00100 train 0.2075/0.9257 val 0.2380/0.9158  41.0s  1342 samples/s
+test accuracy 0.9119  (peak RSS 972 MB)
+[run ] resume interrupted
+epoch  1 lr 0.00100 train 0.4228/0.8489 val 0.3249/0.8866  43.3s  1271 samples/s
+epoch  2 lr 0.00100 train 0.2748/0.9001 val 0.2890/0.8966  40.5s  1358 samples/s
+epoch  3 lr 0.00100 train 0.2308/0.9173 val 0.2635/0.9030  41.0s  1343 samples/s
+simulated interruption after epoch 3
+[run ] resume resumed
+resumed from lab06/runs/resume/interrupted/epoch3.pt after epoch 3
+epoch  4 lr 0.00100 train 0.2011/0.9277 val 0.2458/0.9114  41.8s  1317 samples/s
+epoch  5 lr 0.00100 train 0.1801/0.9357 val 0.2443/0.9176  41.7s  1319 samples/s
+test accuracy 0.9127  (peak RSS 947 MB)
